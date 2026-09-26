@@ -49,6 +49,7 @@ app.use(
 
 const allowedOrigins = [
     CLIENT_URL,
+    'https://suguna-multispeciality-admin.vercel.app',
     'http://localhost:4173',
     'http://localhost:5173',
 ].filter(Boolean);
