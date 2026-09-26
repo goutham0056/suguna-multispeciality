@@ -910,11 +910,13 @@ mongoose
             'MongoDB connected successfully'
         );
 
+        // Production-ready server binding
         app.listen(
             PORT,
+            '0.0.0.0',
             () => {
                 console.log(
-                    `Suguna Multispeciality API running on http://localhost:${PORT}`
+                    `Suguna Multispeciality API running on port ${PORT}`
                 );
             }
         );
